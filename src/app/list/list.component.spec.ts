@@ -12,12 +12,6 @@ describe('ListComponent', () => {
     .compileComponents();
   }));
 
-  // beforeEach(() => {
-  //   fixture = TestBed.createComponent(ListComponent);
-  //   component = fixture.componentInstance;
-  //   fixture.detectChanges();
-  // });
-
   it('should create', () => {
     let fixture = TestBed.createComponent(ListComponent);
     let app = fixture.debugElement.componentInstance;
