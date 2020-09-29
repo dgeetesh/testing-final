@@ -18,13 +18,13 @@ describe('HomeComponent', () => {
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
-
+//component creation check
   it('should create', () => {
     let fixture = TestBed.createComponent(HomeComponent);
     let app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   });
-
+  // event calling check
   it('should click on button', async(() => {
 
     const fixture = TestBed.createComponent(HomeComponent);
