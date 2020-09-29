@@ -26,7 +26,6 @@ describe('HomeComponent', () => {
   });
   // event calling check
   it('should click on button', async(() => {
-
     const fixture = TestBed.createComponent(HomeComponent);
     let app = fixture.debugElement.componentInstance;
     let button = fixture.debugElement.nativeElement.querySelector('button');
